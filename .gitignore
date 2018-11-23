@@ -1,0 +1,31 @@
+syntax: glob
+*~
+\#*\#
+
+# Ignore compiled files.
+*.elc
+TAGS
+
+# Ignore entire directories produced by emacs.
+auto-save-list/
+elpa/
+eshell/
+.org-id-locations
+
+# Ignore files produced by emacs.
+abbrev_defs
+ac-comphist.dat
+custom.el
+history
+ido.last
+projectile-bookmarks.eld
+recentf.el
+recentf
+tramp
+
+	new file:   .gitignore
+	new file:   .org-id-locations
+	new file:   eshell/alias
+	new file:   eshell/lastdir
+	new file:   init.el
+	new file:   recentf
